@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智游星途</title>
+    <!-- 关联外部CSS文件（关键！必须和index.html同文件夹） -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 左上角logo（本地图片logo555.png，已和网页同文件夹） -->
+    <div class="logo">
+        <img src="logo555.png" alt="智游星途logo">
+    </div>
+
+    <div class="container">
+        <!-- 网页头部 -->
+        <header>
+            <h1>智游星途：孤独症儿童社会交往数智互动游戏先行者</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#children">社会交往</a></li>
+                    <li><a href="#projects">游戏介绍</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- 关于我们模块 -->
+        <section id="about">
+            <h2 class="section-title">关于我们</h2>
+            <div class="content active"> <!-- 默认展开 -->
+                <p>我们是来自沈阳化工大学社会工作研二的学生，致力于通过数智赋能的平台训练，提升孤独症儿童社会交往能力。希望我们做出的小小举动，能够真正为孩子们带来改变。</p>
+                <img src="xingxing.png" alt="孩子" style="width: 300px; height: auto;">
+            </div>
+        </section>
+
+        <!-- 社会交往模块（核心展开功能） -->
+        <section id="children">
+            <h2 class="section-title">社会交往</h2>
+            <p>孤独症儿童的社会交往问题是其核心障碍之一，主要表现为社会认知、社交沟通、互动行为等多维度的发展滞后，且个体差异较大，核心问题可概括为以下四大类：</p>
+
+            <!-- 二级标题1 + 展开内容 -->
+            <h3 class="second-title" data-target="content1">1. 社会认知缺失，难以理解社交规则</h3>
+            <div id="content1" class="content">
+                <p>这类儿童普遍缺乏对他人心理状态的感知能力，即“心理理论”发展不足，无法准确理解他人的情绪、意图、信念和需求。比如难以分辨他人的喜怒哀乐，对别人的求助信号无反应；同时也不懂得社交中的隐性规则，如交流时需保持适当距离、轮流发言、根据场合调整语气等，常出现不合时宜的言行。</p>
+            </div>
+
+            <!-- 二级标题2 + 展开内容 -->
+            <h3 class="second-title" data-target="content2">2. 沟通能力薄弱，缺乏有效互动</h3>
+            <div id="content2" class="content">
+                <p>沟通障碍体现在语言沟通和非语言沟通两方面。语言上，部分儿童存在语言发育迟缓甚至无语言，有语言能力的儿童也常出现“功能性语言缺失”，如只会机械重复他人话语（鹦鹉学舌）、语言表达缺乏逻辑、无法发起或维持对话；非语言沟通上，他们很少使用眼神交流、手势、表情等辅助沟通方式，回避与人对视，也难以通过他人的肢体语言获取信息。</p>
+            </div>
+
+            <!-- 二级标题3 + 展开内容 -->
+            <h3 class="second-title" data-target="content3">3. 社交动机不足，互动方式刻板</h3>
+            <div id="content3" class="content">
+                <p>多数孤独症儿童对社交活动缺乏兴趣，更倾向于独处或沉浸在自己的世界中，主动发起社交的行为极少。即使有社交意愿，互动方式也较为刻板单一，比如仅围绕自己感兴趣的话题反复讲述，不顾及对方反应；或通过拉扯、拍打等不当行为表达社交需求，难以进行双向、灵活的互动。</p>
+            </div>
+
+            <!-- 二级标题4 + 展开内容 -->
+            <h3 class="second-title" data-target="content4">4. 难以建立稳定关系，应对变化能力差</h3>
+            <div id="content4" class="content">
+                <p>他们难以理解友谊的含义，无法建立和维持稳定的同伴关系，在集体环境中常处于孤立状态，不会主动参与集体游戏或合作活动。同时，对社交场景的变化极度敏感，一旦熟悉的社交流程被打破，容易出现焦虑、烦躁甚至情绪爆发，进一步影响社交互动的开展。</p>
+            </div>
+
+            <div class="content active"> <!-- 默认展开 -->
+                <p>您可以让孩子使用我们的游戏，在趣味中学习训练。同时我们也设置了使用时限，以保护孩子们的眼睛。</p>
+                <img src="112.jpg" alt="孩子们2" style="width: 350px; height: auto;">
+            </div>
+        </section>
+
+        <!-- 游戏模块 -->
+        <section id="projects">
+            <h2 class="section-title">游戏介绍</h2>
+            <!-- 二级标题1 + 展开内容（情景模拟） -->
+           <h3 class="second-title" data-target="game1">1. 情景模拟</h3>
+        <div id="game1" class="content">
+              <p>儿童能够熟悉不同的情景，如医院、公园、学校、超市，以便在生活中更好地与人交往。</p>
+           </div>
+
+             <!-- 二级标题2 + 展开内容（多阶段社交） -->
+          <h3 class="second-title" data-target="game2">2. 多阶段社交</h3>
+        <div id="game2" class="content">
+             <p>轻松学习六阶段社交课程，在课余时间巩固进步。</p>
+           </div>
+
+             <!-- 二级标题3 + 展开内容（趣味益智比拼） -->
+          <h3 class="second-title" data-target="game3">3. 趣味益智比拼</h3>
+        <div id="game3" class="content">
+             <p>以闯关的游戏模式进行视觉训练。</p>
+           </div>
+
+     
+         </section>
+      
+
+        <!-- 联系模块 -->
+        <section id="contact">
+            <h2 class="section-title">联系我们</h2>
+            <div class="content active"> <!-- 默认展开 -->
+                <p>团队：刘怡婷 赵林琦 吴欣蕾</p>
+                <p>邮箱：moon1228@foxmail.com</p>
+                <p>电话：17702452235</p>
+                <img src="logo555.png" alt="智游星途logo"style="width: 300px; height: auto;">
+            </div>
+            
+        </section>
+
+        <!-- 网页底部 -->
+        <footer>
+            <p>&copy; 版权所有 智游星途 2025 </p>
+        </footer>
+    </div>
+
+    <!-- 展开/折叠功能JavaScript -->
+    <script>
+        // 获取所有二级标题
+        const secondTitles = document.querySelectorAll('.second-title');
+        // 给每个二级标题添加点击事件
+        secondTitles.forEach(title => {
+            title.addEventListener('click', function() {
+                // 获取对应内容区ID
+                const targetId = this.getAttribute('data-target');
+                const content = document.getElementById(targetId);
+                // 切换内容区显示/隐藏
+                content.classList.toggle('active');
+            });
+        });
+
+        // 导航栏平滑滚动（优化体验）
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
